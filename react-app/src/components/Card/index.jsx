@@ -1,16 +1,8 @@
 import {useEffect, useState} from "react";
-import {Alert, Button, Collapse, FormControl, IconButton, TextField} from "@mui/material";
+import {Alert, Button, Collapse, FormControl, TextField} from "@mui/material";
 import useHandleChange from "../../hooks/UseHandleChange";
 import './index.css';
 import axios from "axios";
-import * as PropTypes from "prop-types";
-
-
-function CloseIcon(props) {
-    return null;
-}
-
-CloseIcon.propTypes = {fontSize: PropTypes.string};
 
 function Card() {
     const validatorCardNumber = () => {
